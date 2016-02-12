@@ -79,3 +79,5 @@ OAuthTwitterStreamingSession Looks like
 trait OAuthTwitterStreamingSession
   extends TwitterStreamingSession[Tweet] with BackOffStreamReconnectionStrategy with JsonEntitySerializer with OAuthAuthenticationMechanism
 ```
+
+[![Join the chat at https://gitter.im/d6y/async-twitter-client](https://badges.gitter.im/d6y/async-twitter-client.svg)](https://gitter.im/d6y/async-twitter-client?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
